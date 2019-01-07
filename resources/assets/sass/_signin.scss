@@ -1,0 +1,64 @@
+.auth-form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  form{
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    .checkbox {
+      font-weight: 400;
+    }
+    .form-control {
+      position: relative;
+      box-sizing: border-box;
+      height: auto;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: -1px;
+      border-radius: 0;
+    }
+    .form-control:focus {
+      z-index: 2;
+    }
+    input:first-of-type{
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+    input:last-of-type{
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+
+  }
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+.section-content{
+  padding: 80px 0px;
+}
+
+.section-title{
+  padding-bottom: 20px;
+}
+#hero{
+  background: #222 url('https://hd.unsplash.com/photo-1467703834117-04386e3dadd8') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#hero-caption{
+  width: 100%;
+}
